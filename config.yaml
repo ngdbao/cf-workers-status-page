@@ -33,7 +33,7 @@ monitors:
     linkable: true # allows the title to be a link, default=true
 
   - id: maps
-    name: The Cloudflare Blog
+    name: Ban do tripical maps
     description: 'ban do Tripical maps OCI.'
     url: 'https://maps.stripical.xyz/health/'
     method: GET
