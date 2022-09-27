@@ -16,8 +16,8 @@ settings:
 
 monitors:
   - id: tripical-home # unique identifier
-    name: tripical.vn
-    description: 'You write code. They handle the rest.' # default=empty
+    name: www.tripical.vn
+    description: 'Trang chu cua Tripical.' # default=empty
     url: 'https://tripical.vn/' # URL to fetch
     method: GET # default=GET
     expectStatus: 200 # operational status, default=200
@@ -34,6 +34,7 @@ monitors:
 
   - id: maps
     name: The Cloudflare Blog
+    description: 'ban do Tripical maps OCI.'
     url: 'https://maps.stripical.xyz/health/'
     method: GET
     expectStatus: 200
