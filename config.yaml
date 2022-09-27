@@ -38,3 +38,4 @@ monitors:
     url: 'https://maps.stripical.xyz/health/'
     method: GET
     expectStatus: 200
+    linkable: false # allows the title to be a link, default=true
