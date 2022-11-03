@@ -39,3 +39,10 @@ monitors:
     method: GET
     expectStatus: 200
     linkable: false # allows the title to be a link, default=true
+  - id: functions-presign-aws
+    name: Function presign GCS on aws
+    description: 'Function presign GCS on aws'
+    url: 'https://sign.stripical.xyz/'
+    method: GET
+    expectStatus: 200
+    linkable: false # allows the title to be a link, default=true
