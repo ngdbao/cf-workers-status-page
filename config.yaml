@@ -1,6 +1,6 @@
 settings:
   title: 'Status Page'
-  url: 'https://tripical.vn' # used for Slack messages
+  url: 'https://status.tripical.vn' # used for Slack messages
   logo: logo-192x192.png # image in ./public/ folder
   daysInHistogram: 90 # number of days you want to display in histogram
   collectResponseTimes: true # collects avg response times from CRON locations
@@ -39,6 +39,7 @@ monitors:
     method: GET
     expectStatus: 200
     linkable: false # allows the title to be a link, default=true
+
   - id: functions-presign-aws
     name: Function presign GCS on aws
     description: 'Function presign GCS on aws'
