@@ -42,8 +42,8 @@ monitors:
 
   - id: Seller-center
     name: Seller front-end
-    description: 'Trang của seller'
+    description: 'Trang cua seller'
     url: 'https://sc.tripical.vn/
     method: GET
     expectStatus: 200
-    linkable: false # allows the title to be a link, default=true
+    linkable: true # allows the title to be a link, default=true
