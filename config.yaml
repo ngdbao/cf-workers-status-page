@@ -43,7 +43,7 @@ monitors:
   - id: Seller-center
     name: Seller front-end
     description: 'Trang cua seller'
-    url: 'https://sc.tripical.vn/
+    url: 'https://sc.tripical.vn/'
     method: GET
     expectStatus: 200
     linkable: true # allows the title to be a link, default=true
