@@ -3,7 +3,7 @@ settings:
   url: 'https://status.tripical.vn' # used for Slack messages
   logo: logo-192x192.png # image in ./public/ folder
   daysInHistogram: 90 # number of days you want to display in histogram
-  collectResponseTimes: false # collects avg response times from CRON locations (only if <5 monitors)
+  collectResponseTimes: true # collects avg response times from CRON locations (only if <5 monitors)
 
   allmonitorsOperational: 'All Systems Operational'
   notAllmonitorsOperational: 'Not All Systems Operational'
@@ -39,3 +39,11 @@ monitors:
     method: GET
     expectStatus: 200
     linkable: false # allows the title to be a link, default=true
+    
+  - id: Seller-center
+    name: Seller front-end
+    description: 'Trang cua seller'
+    url: 'https://sc.tripical.vn/'
+    method: GET
+    expectStatus: 200
+    linkable: true # allows the title to be a link, default=true
