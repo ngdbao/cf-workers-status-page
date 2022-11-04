@@ -3,7 +3,7 @@ settings:
   url: 'https://status.tripical.vn' # used for Slack messages
   logo: logo-192x192.png # image in ./public/ folder
   daysInHistogram: 90 # number of days you want to display in histogram
-  collectResponseTimes: true # collects avg response times from CRON locations
+  collectResponseTimes: false # collects avg response times from CRON locations (only if <5 monitors)
 
   allmonitorsOperational: 'All Systems Operational'
   notAllmonitorsOperational: 'Not All Systems Operational'
