@@ -40,10 +40,10 @@ monitors:
     expectStatus: 200
     linkable: false # allows the title to be a link, default=true
 
-  - id: functions-presign-aws
-    name: Function presign GCS on aws
-    description: 'Function presign GCS on aws'
-    url: 'https://sign.stripical.xyz/'
+  - id: Seller-center
+    name: Seller front-end
+    description: 'Trang của seller'
+    url: 'https://sc.tripical.vn/
     method: GET
     expectStatus: 200
     linkable: false # allows the title to be a link, default=true
